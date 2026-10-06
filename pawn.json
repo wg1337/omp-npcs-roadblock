@@ -1,0 +1,27 @@
+{
+	"user": "wg1337",
+	"repo": "omp-npcs-roadblock",
+	"tag": "0.0.1",
+	"entry": "roadblock.pwn",
+	"output": "filterscripts/roadblock.amx",
+	"dependencies": [
+		"openmultiplayer/omp-stdlib",
+		"pawn-lang/samp-stdlib@open.mp",
+		"pawn-lang/pawn-stdlib@open.mp",
+		"AmyrAhmady/samp-gps-plugin",
+		"pawn-lang/YSI-Includes@5.x"
+
+	],
+	"local": true,
+	"build": {
+		"args": [
+			"-;+",
+			"-(+",
+			"-\\+",
+			"-d3",
+			"-Z+"
+		],
+		"name": "default",
+		"compiler": { "preset": "openmp" }
+	}
+}
