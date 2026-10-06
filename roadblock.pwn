@@ -2,8 +2,6 @@
 #define MAX_NPCS 150
 
 #include <open.mp>
-#include <colandreas>
-#include <streamer>
 #include <GPS>
 #include <YSI_Data/y_iterate.inc>
 
